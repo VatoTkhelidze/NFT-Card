@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+
+body {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: hsl(217, 54%, 11%);
+min-height: 100vh;
+}
+
+.equilibrium {
+width: 100%;
+height: 100%;
+max-width: 100%;
+border-radius: 8px;
+}
+
+.nft {
+padding: 30px;
+width: 350px;
+height: 596px;
+border-radius: 15px;
+box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+background: #15263f;
+}
+
+.nft h1 {
+font-family: "Outfit";
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+color: #ffffff;
+}
+
+h1:hover {
+color: #00fff8;
+}
+
+.eth-numbers {
+font-family: "Outfit";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #00fff8;
+}
+
+.ethereum {
+margin-right: 6px;
+}
+
+.days {
+font-family: "Outfit";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #8bacd9;
+}
+
+.days:hover {
+color: #00fff8;
+}
+
+.nft p {
+font-family: "Outfit";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #8bacd9;
+}
+
+.date {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.eth-date-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 24px;
+}
+
+.line {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 24px;
+width: 100%;
+height: 1px;
+background-color: #2e405a;
+}
+
+.boy {
+margin-top: 16px;
+width: 33px;
+height: 33px;
+border: 1px solid #ffffff;
+border-radius: 50%;
+}
+
+.author1 {
+font-family: "Outfit";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #8bacd9;
+margin-top: 22px;
+margin-right: 3px;
+margin-left: 16px;
+}
+
+.author2 {
+font-family: "Outfit";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+margin-top: 22px;
+}
+.author2:hover {
+color: #00fff8;
+}
+
+.eth {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.eye {
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+.hover-pic {
+position: relative;
+}
+.hover-pic:hover .eye {
+display: inline;
+}
+.box {
+justify-content: center;
+position: absolute;
+top: 0;
+display: flex;
+align-items: center;
+width: 100%;
+height: 100%;
+border-radius: 8px;
+}
+.hover-pic:hover .box {
+display: flex;
+background: rgba(0, 255, 248, 0.2);
+height: 350px;
+width: 100%;
+}
+
+.final {
+display: flex;
+align-items: center;
+}
